@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --first-color: #db1981;
+  --second-color: #e152a2;
+  --white-color: #fff;
+  --text-color: #424247;
+  --bg-color: #0e1525;
+  --color_1: black;
+  --ba-color-2: #1c2333;
+}
+
+body {
+  /* background: #141520; */
+  background: var(--bg-color);
+}
+
+.nav-menu a.active {
+  color: #f39c12;
+  font-weight: bold;
+}
+
+h1,
+h4,
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+p {
+  color: #fff;
+  line-height: 1.6;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.top-heading {
+  position: relative;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.section-wrapper {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+
+.section-wrapper.g-design {
+  background-image: radial-gradient(
+    circle closest-corner at 0% 50%,
+    rgba(255, 111, 76, 0.1),
+    rgba(255, 111, 76, 0)
+  );
+}
+
+.button_group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.customButton {
+  position: relative;
+  display: inline-block;
+  min-width: 150px;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  border-radius: 30px;
+  padding: 0 25px;
+  background: var(--first-color);
+  height: 42px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.customButton:hover {
+  background: var(--second-color);
+}
+
+.customButton:hover .arrow {
+  transform: translateX(3px);
+}
+
+.customButton-transparent {
+  color: #fff;
+  min-width: 150px;
+  height: 38px;
+  font-size: 14px;
+  font-weight: 400;
+  background: transparent;
+  border: 1px solid var(--first-color);
+}
+
+.customButton-transparent:hover {
+  background: var(--first-color);
+  border-color: var(--first-color);
+}
+
+.customButton-transparent:hover .arrow {
+  transform: translateX(3px);
+}
+
+.arrow {
+  display: inline-block;
+  font-size: 20px;
+  transition: transform 0.3s ease-out;
+}
+
+.hero-badge {
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
+  backdrop-filter: blur(12px);
+  color: #cfd6dc;
+  background-color: #ffffff05;
+  border: 1px solid #ffffff0f;
+  border-radius: 99px;
+  align-items: center;
+  padding: 4px 10px;
+  font-size: 11px;
+  line-height: 1em;
+  font-weight: 300;
+  display: inline-flex;
+  box-shadow: inset 0 -4px 12px #ffffff1a;
+}
+
+@media (max-width: 576px) {
+  .container {
+    margin: 0 auto;
+  }
+
+  .customButton {
+    font-size: 12px;
+    padding: 0 15px;
+    height: 36px;
+    min-width: 130px;
+    margin-top: 10px;
+  }
+
+  .section-wrapper {
+    padding-bottom: 30px;
+  }
+
+  .customButton-transparent {
+    min-width: 130px;
+  }
+}

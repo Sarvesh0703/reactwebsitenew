@@ -1,0 +1,101 @@
+:root {
+  --first-color: #db1981;
+  --second-color: #e152a2;
+}
+
+.cont-title {
+  font-size: 32px;
+  margin-bottom: 2rem;
+  color: #fff;
+  font-weight: 400;
+  line-height: 1.3em;
+}
+
+.para-title {
+  max-width: 450px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.6em;
+  font-weight: 300;
+}
+
+.para-title a {
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.para-title a:hover {
+  color: #007bff;
+}
+
+.field-section {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.field-label {
+  margin-bottom: 10px;
+  color: #c2c2c2;
+  font-size: 14px;
+  line-height: 1em;
+  font-weight: 300;
+}
+
+.text-field {
+  width: 100%;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  border-style: none none solid;
+  border-width: 1px;
+  border-color: #000 #000 hsla(0, 0%, 100%, 0.6);
+  border-radius: 0px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 0px;
+  line-height: 1em;
+  font-weight: 300;
+  transition: 0.3s;
+}
+
+.contact-section textarea:focus,
+.contact-section input:focus {
+  color: #fff;
+  background-color: transparent;
+  border-color: var(--first-color);
+  outline: none;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 576px) {
+  .contact-section {
+    padding: 50px 0;
+  }
+
+  .about-title p {
+    line-height: 20px;
+    font-size: 12px;
+  }
+
+  .para-title {
+    font-size: 13px;
+  }
+
+  .cont-title {
+    font-size: 24px;
+  }
+
+  .contact-section form {
+    margin-top: 30px;
+  }
+
+  .text-field {
+    font-size: 14px;
+    padding: 3px 0px;
+  }
+
+  .field-section {
+    margin-bottom: 20px;
+  }
+}

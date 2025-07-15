@@ -1,0 +1,51 @@
+:root {
+  --first-color: #db1981;
+  --second-color: #e152a2;
+}
+
+#gallery .slick-slide > div {
+  display: flex;
+  justify-content: center;
+  margin: 0 4px;
+}
+
+#gallery .slick-slide img{
+  border-radius: 5px;
+}
+
+.gradient-border {
+  position: relative;
+  padding: 3px;
+  border-radius: 5px;
+  background: linear-gradient(45deg, #EE7752, var(--first-color), #23A6D5, #23D5AB);;
+  background-size: 400% 400%;
+  animation: borderAnimation 3s ease infinite;
+  display: inline-block;
+}
+
+.gradient-border img {
+  display: block;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  background: #111;
+}
+
+@keyframes borderAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .slick-slide {
+    width: 200px !important;
+  }
+}

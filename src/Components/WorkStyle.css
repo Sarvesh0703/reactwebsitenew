@@ -1,0 +1,59 @@
+.work-card {
+  display: flex;
+  padding: 45px 40px 45px 45px;
+  flex-direction: column;
+  grid-row-gap: 20px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  background-color: var(--ba-color-2);
+}
+
+.work-card-title {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1em;
+  font-weight: 400;
+}
+
+.section-title h2 {
+  color: #fff;
+  font-size: 32px;
+  line-height: 1.3em;
+  font-weight: 500;
+}
+
+.section-title {
+  display: flex;
+  max-width: 450px;
+  flex-direction: column;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  color: #fff;
+  font-size: 17px;
+  line-height: 1.6em;
+  font-weight: 300;
+}
+
+@media (max-width: 576px) {
+  .section-title h2 {
+    font-size: 24px;
+  }
+
+  .section-title {
+    grid-row-gap: 10px;
+    margin-bottom: 25px;
+  }
+
+  .work-card {
+    padding: 30px;
+  }
+
+  .work-card-title {
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .work-card p {
+    font-size: 12px;
+  }
+}

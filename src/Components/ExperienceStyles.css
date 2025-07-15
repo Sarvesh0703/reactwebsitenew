@@ -1,0 +1,128 @@
+.experience-profile {
+  position: relative;
+  padding: 60px 0 0;
+}
+
+.expe-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.expe-title {
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  max-width: 650px;
+}
+
+.expe-heading {
+  position: relative;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.experience-content {
+  padding-top: 50px;
+}
+
+.main-timeline {
+  position: relative;
+}
+
+.main-timeline:before {
+  content: "";
+  width: 2px;
+  height: 98%;
+  background: #b2c1ce;
+  position: absolute;
+  top: 1.5%;
+  left: 45.8%;
+  z-index: -1;
+}
+
+.expe-title p {
+  color: #fff;
+}
+
+.experience-profile ul {
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.experience-profile ul li {
+  list-style: none;
+}
+
+.experience-profile .single-timeline-box {
+  margin-bottom: 75px;
+}
+
+.experience-profile .fix {
+  position: relative;
+  clear: both;
+}
+
+.experience-profile .experience-time {
+  position: relative;
+}
+
+.experience-profile .text-right {
+  text-align: right;
+}
+
+.experience-profile .experience-time h2 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: capitalize;
+  margin: 0;
+  font-weight: 400;
+}
+
+.experience-profile .experience-time h3 {
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+  margin-top: 14px;
+  text-transform: uppercase;
+}
+
+.experience-profile .timeline-content h4.title {
+  font-size: 16px;
+  padding: 0;
+  margin-left: -16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.experience-profile .experience-time span > i,
+.experience-profile .timeline-content span > i {
+  color: #d92cf9;
+  position: relative;
+  font-size: 10px;
+  left: -47px;
+  z-index: 1;
+}
+
+.experience-profile .timeline-content h5 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 18px 0 20px;
+}
+
+.experience-profile .main-timeline .description {
+  font-size: 14px;
+  color: #fff;
+}
+
+.col-md-offset-1 {
+  margin-left: 8.33333333%;
+}

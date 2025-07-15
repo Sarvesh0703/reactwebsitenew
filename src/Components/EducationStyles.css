@@ -1,0 +1,79 @@
+.education {
+  padding: 60px 0;
+}
+
+.education-horizontal-timeline .col-sm-4 {
+  padding: 0 2px;
+}
+
+.experience-time {
+  position: relative;
+}
+
+.experience-time h2 {
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.single-horizontal-timeline .experience-time h3 {
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+  margin-top: 14px;
+  text-transform: uppercase;
+}
+
+.experience-content {
+  padding: 50px 0;
+}
+
+.single-horizontal-timeline .experience-time h3 span {
+  text-transform: lowercase;
+}
+
+.timeline-horizontal-border {
+  display: flex;
+  align-items: center;
+  padding: 26px 0 30px;
+}
+
+.timeline-horizontal-border i {
+  font-size: 10px;
+  color: #d92cf9;
+  margin-right: 5px;
+}
+
+span.single-timeline-horizontal {
+  display: inline-block;
+  background: #b2c1ce;
+  height: 1px;
+  width: 380px;
+}
+
+.timeline-content h4.title {
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.single-horizontal-timeline .timeline-content h5 {
+  margin: 15px 0;
+}
+.timeline-content h5 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 18px 0 20px;
+}
+
+.single-horizontal-timeline p {
+  color: #fff;
+  max-width: 320px;
+  line-height: 1.8;
+  /* color: #43485c; */
+  font-size: 14px;
+  margin: 0;
+}
