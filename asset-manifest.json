@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/reactwebsitenew/static/css/main.1a074add.css",
+    "main.js": "/reactwebsitenew/static/js/main.246ee473.js",
+    "static/media/hero-bg.jpg": "/reactwebsitenew/static/media/hero-bg.0a0ddba1ba640c876774.jpg",
+    "static/media/Instagram_icon.png": "/reactwebsitenew/static/media/Instagram_icon.bdb90a79348de2b35f9c.png",
+    "static/media/html.png": "/reactwebsitenew/static/media/html.35d52cccade672738a81.png",
+    "static/media/bg-preview.jpg": "/reactwebsitenew/static/media/bg-preview.8b3c1f0314c612b47b6b.jpg",
+    "static/media/cv_sarvesh.pdf": "/reactwebsitenew/static/media/cv_sarvesh.54b83ece8a446b050759.pdf",
+    "static/media/port-5.jpg": "/reactwebsitenew/static/media/port-5.21d8420c24c53266fcaf.jpg",
+    "static/media/port-3.jpg": "/reactwebsitenew/static/media/port-3.f4bc8a5069c43a91413c.jpg",
+    "static/media/Postgresql.png": "/reactwebsitenew/static/media/Postgresql.99d7da9230ec5e4f4c18.png",
+    "static/media/port-2.jpg": "/reactwebsitenew/static/media/port-2.a4682f71fe7bede0df15.jpg",
+    "static/media/photoshop.png": "/reactwebsitenew/static/media/photoshop.577c9b24bd547559498a.png",
+    "static/media/port-1.jpg": "/reactwebsitenew/static/media/port-1.a04f347d0ebffb8197e4.jpg",
+    "static/media/react-js.png": "/reactwebsitenew/static/media/react-js.ee213620508c24a8f129.png",
+    "static/media/port-4.jpg": "/reactwebsitenew/static/media/port-4.e5ef9cc92e8d321d439a.jpg",
+    "static/media/css3.png": "/reactwebsitenew/static/media/css3.ac2736c00cb6dc828b06.png",
+    "static/media/linkedin_icon.png": "/reactwebsitenew/static/media/linkedin_icon.17e919bb623c20be8b80.png",
+    "static/media/javascript.webp": "/reactwebsitenew/static/media/javascript.00fd0fae01e451c5460a.webp",
+    "static/media/Facebook_icon.png": "/reactwebsitenew/static/media/Facebook_icon.cd6124b5e67a74f25690.png",
+    "static/media/youtube_icon.webp": "/reactwebsitenew/static/media/youtube_icon.f18027bc0f92b8de06f5.webp",
+    "static/media/nodejs.svg": "/reactwebsitenew/static/media/nodejs.6186f603644b684c5b000d966166464a.svg",
+    "index.html": "/reactwebsitenew/index.html",
+    "static/media/star.svg": "/reactwebsitenew/static/media/star.5cf927422480d229a40c40654eeed1a9.svg",
+    "main.1a074add.css.map": "/reactwebsitenew/static/css/main.1a074add.css.map",
+    "main.246ee473.js.map": "/reactwebsitenew/static/js/main.246ee473.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a074add.css",
+    "static/js/main.246ee473.js"
+  ]
+}
