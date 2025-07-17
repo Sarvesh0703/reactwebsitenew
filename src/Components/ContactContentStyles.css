@@ -68,6 +68,14 @@
   box-shadow: none;
 }
 
+.text-field:focus-within{
+  background-color: transparent;
+}
+
+.text-field::placeholder{
+  background-color: transparent;
+}
+
 @media screen and (max-width: 576px) {
   .contact-section {
     padding: 50px 0;

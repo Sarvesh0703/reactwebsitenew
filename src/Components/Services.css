@@ -47,20 +47,20 @@
 
 .services-card {
   padding: 50px 40px;
-  background-color: rgba(68, 84, 254, 0);
-  background-image: linear-gradient(
+  background-color: var(--bg-color-2);
+  /* background-image: linear-gradient(
     180deg,
     rgb(219 25 129 / 30%),
     rgb(68 84 254 / 30%)
-  );
-  transition: all 400ms ease;
+  ); */
+  transition: all 0.5s;
   border-radius: 5px;
 }
 
 .services-card:hover {
-  background-color: rgba(68, 84, 254, 0.1);
+  background-color: rgb(68 84 254 / 21%);
+  transform: translateY(-10px);
 }
-
 
 @media (max-width: 576px) {
   .section-tag {

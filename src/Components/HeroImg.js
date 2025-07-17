@@ -33,8 +33,8 @@ const HeroImg = () => {
       </div> */}
       <div className="main-content">
         <div className="content">
-          <p style={{fontStyle: 'italic'}}>Welcome</p>
-            <h1>Hi, 👋 I’m Sarvesh, a Web Designer.</h1>
+          <p>Welcome</p>
+            <h1>Hi, 👋 I’m Sarvesh, a Web Developer.</h1>
           <div className="type_txt">
             <ReactTyped
               strings={[

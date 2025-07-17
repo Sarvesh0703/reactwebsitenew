@@ -14,7 +14,7 @@
   --text-color: #424247;
   --bg-color: #0e1525;
   --color_1: black;
-  --ba-color-2: #1c2333;
+  --bg-color-2: #1c2333;
 }
 
 body {
@@ -108,7 +108,7 @@ ul {
 .customButton-transparent {
   color: #fff;
   min-width: 150px;
-  height: 38px;
+  height: 36px;
   font-size: 14px;
   font-weight: 400;
   background: transparent;
@@ -134,8 +134,8 @@ ul {
   grid-column-gap: 6px;
   grid-row-gap: 6px;
   backdrop-filter: blur(12px);
-  color: #cfd6dc;
-  background-color: #ffffff05;
+  color: #ffffff;
+  background-color: #ffffff21;
   border: 1px solid #ffffff0f;
   border-radius: 99px;
   align-items: center;

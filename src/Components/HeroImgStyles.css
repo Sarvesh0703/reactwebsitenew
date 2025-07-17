@@ -72,12 +72,13 @@
   font-weight: 600;
   text-shadow: 2px 2px 4px #000000;
   color: #fff;
+  font-style: italic;
   margin-bottom: 20px;
 }
 
 .hero .content p {
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 400;
   color: var(--first-color);
   margin-bottom: 20px;
   text-shadow: 2px 2px 4px #000000;

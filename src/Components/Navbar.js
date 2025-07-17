@@ -50,9 +50,8 @@ const Header = () => {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-sm-3 col-lg-3">
-            <a href="/" className="logo">
+            <a href="" className="logo">
               <h1>Portfolio</h1>
-              <span>Web</span>
             </a>
           </div>
           <div className="col-sm-9 col-lg-9">
