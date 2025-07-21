@@ -8,17 +8,19 @@
 }
 
 :root {
-  --first-color: #db1981;
-  --second-color: #e152a2;
+  --first-color: #a3d1ff;
+  --second-color: rgb(146 188 230 / 80%);
+  /* --first-color: #db1981;
+  --second-color: #e152a2; */
   --white-color: #fff;
   --text-color: #424247;
-  --bg-color: #0e1525;
+  /* --bg-color: #0e1525; */
+  --bg-color: #000;
   --color_1: black;
   --bg-color-2: #1c2333;
 }
 
 body {
-  /* background: #141520; */
   background: var(--bg-color);
 }
 
@@ -37,7 +39,7 @@ a {
 p {
   color: #fff;
   line-height: 1.6;
-  font-size: 13px;
+  font-size: 16px;
   margin-bottom: 0;
 }
 
@@ -47,20 +49,202 @@ ul {
   padding: 0;
 }
 
+/* /////////////////// button CSS /////////////////// */
+
+.common-heading {
+  display: inline-block;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  background: #a3d1ff1a;
+  color: #a3d1ff;
+  margin-bottom: 3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 50px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.button_group {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.customButton.button-1 {
+  position: relative;
+  overflow: hidden;
+  color: #000;
+  background: #a3d1ff;
+  min-width: 180px;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5rem;
+  transition-duration: 0.5s;
+}
+
+.customButton.button-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #a3d1ff;
+  transform: translate3d(-100%, 0, 0);
+}
+
+.customButton.button-1::before {
+  background: #fff;
+  /* color: #37474f; */
+  color: #000;
+}
+
+.customButton.button-1 > span {
+  display: block;
+  color: #000;
+}
+
+.customButton.button-1::before,
+.customButton.button-1 > span {
+  transition: transform 0.5s;
+  transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+  color: #000;
+}
+.customButton.button-1:hover::before,
+.customButton.button-1:hover > span {
+  transform: translate3d(0, 0, 0);
+  color: #000;
+}
+
+.customButton.button-1:hover .arrow {
+  transform: translateX(4px);
+}
+
+.customButton.button-2 {
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  background: transparent;
+  border: 2px solid #a3d1ff;
+  min-width: 180px;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5rem;
+  transition-duration: 0.5s;
+}
+
+.customButton.button-2:hover {
+  color: #000;
+}
+
+.customButton.button-2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #a3d1ff;
+  transform: translate3d(-100%, 0, 0);
+}
+
+.customButton.button-2::before {
+  background: #a3d1ff;
+  /* color: #37474f; */
+}
+
+.customButton.button-2 > span {
+  display: block;
+  color: #000;
+}
+
+.customButton.button-2::before,
+.customButton.button-2 > span {
+  transition: transform 0.5s;
+  transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+  color: #fff;
+}
+.customButton.button-2:hover::before,
+.customButton.button-2:hover > span {
+  transform: translate3d(0, 0, 0);
+  color: #000;
+}
+
+.customButton:hover .arrow {
+  transform: translateX(3px);
+}
+
+.arrow {
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 3px;
+  transition: transform 0.5s ease;
+}
+
+.view-btn {
+  position: relative;
+  overflow: hidden;
+  color: #000;
+  background: var(--first-color);
+  min-width: 140px;
+  height: 38px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 12px 18px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5rem;
+  transition-duration: 0.5s;
+}
+
+.view-btn:hover {
+  background: var(--second-color);
+}
+
+/* /////////////////// button CSS /////////////////// */
+
 .top-heading {
   position: relative;
-  font-size: 40px;
-  font-weight: 400;
   line-height: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 3rem;
   text-align: center;
   color: #fff;
+}
+
+.top-heading h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  line-height: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.top-heading p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #9ca3af;
 }
 
 .section-wrapper {
   position: relative;
   overflow: hidden;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
 }
 
 .section-wrapper.g-design {
@@ -69,65 +253,6 @@ ul {
     rgba(255, 111, 76, 0.1),
     rgba(255, 111, 76, 0)
   );
-}
-
-.button_group {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.customButton {
-  position: relative;
-  display: inline-block;
-  min-width: 150px;
-  font-size: 15px;
-  color: #fff;
-  font-weight: 500;
-  border: none;
-  border-radius: 30px;
-  padding: 0 25px;
-  background: var(--first-color);
-  height: 42px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-  cursor: pointer;
-  transition: all 0.5s ease;
-}
-
-.customButton:hover {
-  background: var(--second-color);
-}
-
-.customButton:hover .arrow {
-  transform: translateX(3px);
-}
-
-.customButton-transparent {
-  color: #fff;
-  min-width: 150px;
-  height: 36px;
-  font-size: 14px;
-  font-weight: 400;
-  background: transparent;
-  border: 1px solid var(--first-color);
-}
-
-.customButton-transparent:hover {
-  background: var(--first-color);
-  border-color: var(--first-color);
-}
-
-.customButton-transparent:hover .arrow {
-  transform: translateX(3px);
-}
-
-.arrow {
-  display: inline-block;
-  font-size: 20px;
-  transition: transform 0.3s ease-out;
 }
 
 .hero-badge {

@@ -1,6 +1,14 @@
 .projects {
   color: #fff;
   text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.top-heading p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40rem;
 }
 
 .slider-container {
@@ -58,6 +66,7 @@
 .slide-text p {
   margin-bottom: 2rem;
   font-weight: 300;
+  font-size: 13px;
 }
 
 .slide-image {
@@ -128,6 +137,10 @@
   line-height: 1em;
   font-weight: 300;
   white-space: nowrap;
+}
+
+.slide {
+  transition: opacity 1s ease, transform 1s ease;
 }
 
 @media (max-width: 576px) {

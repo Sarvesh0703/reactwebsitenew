@@ -4,7 +4,8 @@
 
 .technology {
   padding-top: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
+  background-color: #1b1b1b80;
 }
 
 .technology-img {
@@ -53,7 +54,7 @@
     height: 70px;
   }
 
-  .image-box .html-box{
+  .image-box .html-box {
     width: 70px !important;
     height: 70px !important;
   }

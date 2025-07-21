@@ -1,6 +1,6 @@
-:root {
-  --first-color: #db1981;
-  --second-color: #e152a2;
+.contact-section {
+  padding-top: 30px;
+  padding-bottom: 100px;
 }
 
 .cont-title {
@@ -46,14 +46,12 @@
   margin-bottom: 0px;
   padding-right: 0px;
   padding-left: 0px;
-  border-style: none none solid;
-  border-width: 1px;
-  border-color: #000 #000 hsla(0, 0%, 100%, 0.6);
-  border-radius: 0px;
-  background-color: transparent;
+  border: 1px solid #ffffff1a;
+  border-radius: 5px;
+  background-color: #303338;
   color: #fff;
-  font-size: 16px;
-  padding: 8px 0px;
+  font-size: 15px;
+  padding: 10px 15px;
   line-height: 1em;
   font-weight: 300;
   transition: 0.3s;
@@ -62,18 +60,25 @@
 .contact-section textarea:focus,
 .contact-section input:focus {
   color: #fff;
-  background-color: transparent;
+  background-color: #303338;
   border-color: var(--first-color);
   outline: none;
   box-shadow: none;
 }
 
-.text-field:focus-within{
-  background-color: transparent;
+.text-field:focus-within {
+  background-color: #303338;
 }
 
-.text-field::placeholder{
-  background-color: transparent;
+.text-field::placeholder {
+  background-color: #303338;
+}
+
+.contact-section form {
+  background: #1b1b1b;
+  border: 1px solid #ffffff1a;
+  border-radius: 10px;
+  padding: 30px;
 }
 
 @media screen and (max-width: 576px) {

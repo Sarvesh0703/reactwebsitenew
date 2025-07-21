@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./ProjectsStyle.css";
 import project_img_1 from "../assets/port-1.jpg";
 import project_img_2 from "../assets/port-2.jpg";
@@ -58,24 +58,29 @@ const Projects = () => {
     setCurrentSlide((prev) => (prev === 0 ? slideData.length - 1 : prev - 1));
   };
 
+  // Auto slide
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextSlide();
+    }, 4000); // Change every 4 seconds
+    return () => clearInterval(interval); // Cleanup on unmount
+  }, []);
+
   return (
     <section className="projects" id="5">
       <div className="section-wrapper g-design">
         <div className="container">
+          <div className="top-heading text-center">
+            <span class="common-heading">Featured Projects</span>
+            <h2 class="">Interactive Portfolio</h2>
+            <p>
+              <strong class="text-white">Explore real results</strong> from our
+              recent projects. Each solution delivered{" "}
+              <strong class="text-white">measurable business impact</strong> for
+              our clients.
+            </p>
+          </div>
           <div className="slide-wrapper">
-            <div className="section-tag">
-              {/* <div>Projects</div> */}
-              <div class="hero-badge">
-                <img
-                  src={star_icon}
-                  loading="lazy"
-                  style={{ width: "15px" }}
-                  alt=""
-                />
-                <div>Projects</div>
-              </div>
-              <div className="section-tag-line"></div>
-            </div>
             {slideData.map((slide, index) => (
               <div
                 key={index}
@@ -91,11 +96,9 @@ const Projects = () => {
                       <div className="project-tag">Web development</div>
                     </div>
                     <p>{slide.description}</p>
-                    <Link
-                      href={slide.link}
-                      className="customButton customButton-transparent"
-                    >
-                      View Project <GoArrowUpRight className="arrow" />
+                    <Link to={slide.link} className="customButton view-btn">
+                      <span>View Project</span>{" "}
+                      <GoArrowUpRight className="arrow" />
                     </Link>
                   </div>
                   <div className="slide-image">

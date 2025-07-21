@@ -9,12 +9,15 @@ const ContactContent = () => {
     <section className="contact-section" id="6">
       <div className="section-wrapper g-design">
         <div className="container">
-          <div className="section-tag">
-            {/* <div>Contact Us</div> */}
-            <div class="hero-badge"><img src={star_icon} loading="lazy" style={{width: '15px'}} alt=""/>
-            <div>Contact Us</div>
-            </div>
-            <div className="section-tag-line"></div>
+          <div className="top-heading text-center">
+            <span class="common-heading">Contact Us</span>
+            <h2 class="">Let's Contact Now</h2>
+            <p>
+              <strong class="text-white">Explore real results</strong> from our
+              recent projects. Each solution delivered{" "}
+              <strong class="text-white">measurable business impact</strong> for
+              our clients.
+            </p>
           </div>
           <div class="row">
             <div className="col-lg-6">
@@ -67,7 +70,7 @@ const ContactContent = () => {
                     required
                   ></textarea>
                 </div>
-                <Link to="/" className="customButton">
+                <Link to="/" className="customButton view-btn">
                   <span>
                     Send Message
                     <GoArrowUpRight className="arrow" />

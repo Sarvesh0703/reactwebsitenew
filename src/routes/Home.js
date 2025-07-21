@@ -7,7 +7,7 @@ import Footer from "../Components/Footer";
 // import Education from "../Components/Education";
 import Services from "../Components/Services";
 // import Portfolio from "../Components/Portfolio";
-import ProjectSlide from "../Components/ProjectSlide";
+// import ProjectSlide from "../Components/ProjectSlide";
 import Work from "../Components/Work";
 import Projects from "../Components/Projects";
 import ContactContent from "../Components/ContactContent";
@@ -18,7 +18,8 @@ const Home = () => {
     <div>
       <Navbar />
       <HeroImg />
-      <ProjectSlide />
+      <Technology />
+      {/* <ProjectSlide /> */}
       <Services />
       <Work />
       <Projects />
@@ -26,7 +27,6 @@ const Home = () => {
       <Portfolio />
       <Experience />
       <ContactContent /> */}
-      <Technology />
       <ContactContent />
       <Footer />
     </div>

@@ -3,18 +3,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { ReactTyped, Typed } from "react-typed";
 import { GoArrowUpRight } from "react-icons/go";
-import resume from '../assets/cv_sarvesh.pdf';
+import resume from "../assets/cv_sarvesh.pdf";
 
 const HeroImg = () => {
-
   const handleDownload = () => {
     fetch(resume)
-      .then(response => response.blob())
-      .then(blob => {
+      .then((response) => response.blob())
+      .then((blob) => {
         const url = window.URL.createObjectURL(blob);
-        const a = document.createElement('a');
+        const a = document.createElement("a");
         a.href = url;
-        a.download = 'resume.pdf';
+        a.download = "resume.pdf";
         document.body.appendChild(a);
         a.click();
         a.remove();
@@ -33,8 +32,12 @@ const HeroImg = () => {
       </div> */}
       <div className="main-content">
         <div className="content">
-          <p>Welcome</p>
-            <h1>Hi, 👋 I’m Sarvesh, a Web Developer.</h1>
+          <div className="round-box">
+            <div className="circle-bg">
+              <span>Welcome</span>
+            </div>
+          </div>
+          <h1>Hi, 👋 I’m Sarvesh, a Web Developer.</h1>
           <div className="type_txt">
             <ReactTyped
               strings={[
@@ -54,7 +57,7 @@ const HeroImg = () => {
               fontWeight: "400",
               textTransform: "none",
               lineHeight: "24px",
-              marginBottom: "20px",
+              marginBottom: "40px",
               color: "#fff",
             }}
           >
@@ -63,13 +66,18 @@ const HeroImg = () => {
             combined experience, and know a thing or two about designing <br />{" "}
             website and mobile apps.
           </p>
-          <div className="button_group mt-4">
-            <Link to="/" onClick={handleDownload} className="customButton">
-              Download CV
+          <div className="button_group mt-5">
+            <Link
+              to="/"
+              onClick={handleDownload}
+              className="customButton button-1"
+            >
+              <span>Download CV</span>
               <GoArrowUpRight className="arrow" />
             </Link>
-            <Link to="/" class="customButton">
-              Contact Us <GoArrowUpRight className="arrow" />
+            <Link to="/" class="customButton button-2">
+              <span>Contact Us</span>
+              <GoArrowUpRight className="arrow" />
             </Link>
           </div>
         </div>

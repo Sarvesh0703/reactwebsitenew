@@ -51,7 +51,7 @@ const Header = () => {
         <div className="row align-items-center">
           <div className="col-sm-3 col-lg-3">
             <a href="" className="logo">
-              <h1>Portfolio</h1>
+              <h1>WEB.</h1>
             </a>
           </div>
           <div className="col-sm-9 col-lg-9">

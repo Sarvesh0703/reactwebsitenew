@@ -14,18 +14,28 @@ const Technology = () => {
     <section className="technology" id="3">
       <div className="section-wrapper g-design">
         <div className="container">
-          <div className="section-tag">
-            {/* <div>Technology</div> */}
+          {/* <div className="section-tag">
             <div class="hero-badge"><img src={star_icon} loading="lazy" style={{width: '15px'}} alt=""/>
-            <div>Technology</div>
+            <div>Technologies I Work With</div>
             </div>
             <div className="section-tag-line"></div>
+          </div> */}
+          <div class="top-heading text-center">
+            <h3>
+              Technologies I Work With
+            </h3>
+            <p>Modern tools for modern solutions</p>
           </div>
           <div className="row">
             <div className="col-lg-12">
               <div className="technology-img">
                 <div className="image-box">
-                  <img src={tech_image_1} style={{ width: "80px", height: "80px",  padding: "17px" }} alt="" className="html-box" />
+                  <img
+                    src={tech_image_1}
+                    style={{ width: "80px", height: "80px", padding: "17px" }}
+                    alt=""
+                    className="html-box"
+                  />
                   <span class="text-sm-tech">HTML5</span>
                 </div>
                 <div className="image-box">
