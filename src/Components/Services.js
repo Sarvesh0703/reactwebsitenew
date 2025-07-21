@@ -1,28 +1,27 @@
 import React from "react";
 import "./Services.css";
 import { FaCode } from "react-icons/fa6";
-import { FiCrop } from "react-icons/fi";
+import { FaCropSimple } from "react-icons/fa6";
 import { FaAppStore } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { GoArrowUpRight } from "react-icons/go";
-import star_icon from "../assets/star.svg";
 
 const Services = () => {
   return (
     <section className="services" id="3">
       <div className="section-wrapper g-design">
         <div className="container">
-          <div className="section-tag">
-            <div class="hero-badge"><img src={star_icon} loading="lazy" style={{width: '15px'}} alt=""/>
-            <div>Services</div>
-            </div>
-            {/* <div>Services</div> */}
-            <div className="section-tag-line"></div>
+          <div className="top-heading text-center">
+            <span class="common-heading">Services</span>
+            <h2>
+              Our Services
+            </h2>
+            <p>Modern tools for modern solutions</p>
           </div>
           <div className="row">
             <div className="services-list">
               <div className="services-card">
-                <Link>
+                <Link className="icon_box">
                   <FaCode size={40} className="serv-icons" />
                 </Link>
                 <h2>UI/UX Design</h2>
@@ -33,14 +32,14 @@ const Services = () => {
                 </p>
                 <Link
                   href="#"
-                  className="customButton customButton-transparent"
+                  className="customButton serv-btn"
                 >
                   Learn More <GoArrowUpRight className="arrow" />
                 </Link>
               </div>
               <div className="services-card">
-                <Link>
-                  <FiCrop size={40} className="serv-icons" />
+                <Link className="icon_box">
+                  <FaCropSimple size={40} className="serv-icons" />
                 </Link>
                 <h2>Web Design</h2>
                 <p>
@@ -50,13 +49,13 @@ const Services = () => {
                 </p>
                 <Link
                   href="#"
-                  className="customButton customButton-transparent"
+                  className="customButton serv-btn"
                 >
                   Learn More <GoArrowUpRight className="arrow" />
                 </Link>
               </div>
               <div className="services-card">
-                <Link>
+                <Link className="icon_box">
                   <FaAppStore size={40} className="serv-icons" />
                 </Link>
                 <h2>App Design</h2>
@@ -66,7 +65,7 @@ const Services = () => {
                 </p>
                 <Link
                   href="#"
-                  className="customButton customButton-transparent"
+                  className="customButton serv-btn"
                 >
                   Learn More <GoArrowUpRight className="arrow" />
                 </Link>

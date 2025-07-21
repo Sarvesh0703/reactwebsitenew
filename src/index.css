@@ -57,7 +57,7 @@ ul {
   line-height: 1.25rem;
   background: #a3d1ff1a;
   color: #a3d1ff;
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   border-radius: 50px;
@@ -222,7 +222,7 @@ ul {
 .top-heading {
   position: relative;
   line-height: 50px;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   text-align: center;
   color: #fff;
 }
@@ -247,13 +247,13 @@ ul {
   /* padding-bottom: 100px; */
 }
 
-.section-wrapper.g-design {
+/* .section-wrapper.g-design {
   background-image: radial-gradient(
     circle closest-corner at 0% 50%,
     rgba(255, 111, 76, 0.1),
     rgba(255, 111, 76, 0)
   );
-}
+} */
 
 .hero-badge {
   grid-column-gap: 6px;

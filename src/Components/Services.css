@@ -1,5 +1,6 @@
 .services {
-  padding: 50px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .services-list {
@@ -9,10 +10,10 @@
 }
 
 .services-list h2 {
-  font-size: 21px;
+  font-size: 24px;
   font-weight: 500;
-  margin-bottom: 15px;
-  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-top: 40px;
   color: #fff;
 }
 
@@ -26,7 +27,6 @@
   width: 100%;
   margin-bottom: 60px;
   align-items: center;
-  font-family: "Anek Malayalam", sans-serif;
   color: #fff;
   font-size: 11px;
   line-height: 1em;
@@ -46,20 +46,41 @@
 }
 
 .services-card {
-  padding: 50px 40px;
-  background-color: var(--bg-color-2);
-  /* background-image: linear-gradient(
-    180deg,
-    rgb(219 25 129 / 30%),
-    rgb(68 84 254 / 30%)
-  ); */
+  padding: 30px;
+  background-color: #1b1b1b;
   transition: all 0.5s;
-  border-radius: 5px;
+  border-radius: 12px;
+  border: 1px solid #ffffff1a;
 }
 
 .services-card:hover {
-  background-color: rgb(68 84 254 / 21%);
   transform: translateY(-10px);
+  border: none;
+  /* transform: scale(1.02) rotateX(5.26285deg) rotateY(-0.612651deg); */
+  background-image: linear-gradient(
+    to bottom right,
+    hsl(210deg 100% 79.94% / 30%),
+    hsl(210deg 100% 84.83% / 0%)
+  );
+}
+
+.services-card .icon_box {
+  background: #a3d1ff1a;
+  padding: 18px;
+  border-radius: 12px;
+}
+
+.serv-icons {
+  fill: var(--first-color);
+}
+
+.serv-btn {
+  color: var(--first-color);
+  transition: all 0.3s ease;
+}
+
+.serv-btn:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 576px) {
