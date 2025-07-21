@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactwebsitenew/static/css/main.0728f67e.css",
-    "main.js": "/reactwebsitenew/static/js/main.ac0eb893.js",
+    "main.css": "/reactwebsitenew/static/css/main.0b34794c.css",
+    "main.js": "/reactwebsitenew/static/js/main.d1891095.js",
     "static/media/Instagram_icon.png": "/reactwebsitenew/static/media/Instagram_icon.bdb90a79348de2b35f9c.png",
     "static/media/html.png": "/reactwebsitenew/static/media/html.35d52cccade672738a81.png",
     "static/media/bg-preview.jpg": "/reactwebsitenew/static/media/bg-preview.8b3c1f0314c612b47b6b.jpg",
@@ -22,11 +22,11 @@
     "static/media/nodejs.svg": "/reactwebsitenew/static/media/nodejs.6186f603644b684c5b000d966166464a.svg",
     "index.html": "/reactwebsitenew/index.html",
     "static/media/star.svg": "/reactwebsitenew/static/media/star.5cf927422480d229a40c40654eeed1a9.svg",
-    "main.0728f67e.css.map": "/reactwebsitenew/static/css/main.0728f67e.css.map",
-    "main.ac0eb893.js.map": "/reactwebsitenew/static/js/main.ac0eb893.js.map"
+    "main.0b34794c.css.map": "/reactwebsitenew/static/css/main.0b34794c.css.map",
+    "main.d1891095.js.map": "/reactwebsitenew/static/js/main.d1891095.js.map"
   },
   "entrypoints": [
-    "static/css/main.0728f67e.css",
-    "static/js/main.ac0eb893.js"
+    "static/css/main.0b34794c.css",
+    "static/js/main.d1891095.js"
   ]
 }
