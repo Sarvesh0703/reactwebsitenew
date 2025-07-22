@@ -1,5 +1,5 @@
 .contact-section {
-  padding-top: 30px;
+  padding-top: 50px;
   padding-bottom: 100px;
 }
 
@@ -83,7 +83,8 @@
 
 @media screen and (max-width: 576px) {
   .contact-section {
-    padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 60px;
   }
 
   .about-title p {
@@ -101,11 +102,6 @@
 
   .contact-section form {
     margin-top: 30px;
-  }
-
-  .text-field {
-    font-size: 14px;
-    padding: 3px 0px;
   }
 
   .field-section {

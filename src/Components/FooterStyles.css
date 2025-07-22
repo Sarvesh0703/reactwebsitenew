@@ -1,20 +1,20 @@
 .footer {
   width: 100%;
-  padding: 2.5rem 0 2.5rem 0;
-  /* background-color: #001e42; */
-  background-image: url("../assets/bg-preview.jpg");
+  padding: 2rem 0 2rem 0;
+  background-color: #1b1b1b;
+  /* background-image: url("../assets/bg-preview.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: bottom; */
 }
 
 .footer-bottom p {
   text-align: left;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 16px;
   margin-bottom: 0;
-  color: #d5d5d5;
+  color: #9ca3af;
 }
 
 .footer-container {

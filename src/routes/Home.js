@@ -8,7 +8,6 @@ import Footer from "../Components/Footer";
 import Services from "../Components/Services";
 // import Portfolio from "../Components/Portfolio";
 // import ProjectSlide from "../Components/ProjectSlide";
-import Work from "../Components/Work";
 import Projects from "../Components/Projects";
 import ContactContent from "../Components/ContactContent";
 import Technology from "../Components/Technology";
@@ -21,7 +20,6 @@ const Home = () => {
       <Technology />
       {/* <ProjectSlide /> */}
       <Services />
-      <Work />
       <Projects />
       {/* <Education />
       <Portfolio />

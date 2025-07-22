@@ -16,13 +16,14 @@ const Services = () => {
             <h2>
               Our Services
             </h2>
-            <p>Modern tools for modern solutions</p>
+            <p>At the core of our offerings lies a commitment to delivering smart, scalable, and future-ready solutions.</p>
           </div>
           <div className="row">
             <div className="services-list">
               <div className="services-card">
+                <div class="gradient-line"></div>
                 <Link className="icon_box">
-                  <FaCode size={40} className="serv-icons" />
+                  <FaCode size={35} className="serv-icons" />
                 </Link>
                 <h2>UI/UX Design</h2>
                 <p>
@@ -38,8 +39,9 @@ const Services = () => {
                 </Link>
               </div>
               <div className="services-card">
+                <div class="gradient-line"></div>
                 <Link className="icon_box">
-                  <FaCropSimple size={40} className="serv-icons" />
+                  <FaCropSimple size={35} className="serv-icons" />
                 </Link>
                 <h2>Web Design</h2>
                 <p>
@@ -55,8 +57,9 @@ const Services = () => {
                 </Link>
               </div>
               <div className="services-card">
+                <div class="gradient-line"></div>
                 <Link className="icon_box">
-                  <FaAppStore size={40} className="serv-icons" />
+                  <FaAppStore size={35} className="serv-icons" />
                 </Link>
                 <h2>App Design</h2>
                 <p>

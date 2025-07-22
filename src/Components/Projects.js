@@ -74,10 +74,7 @@ const Projects = () => {
             <span class="common-heading">Featured Projects</span>
             <h2 class="">Interactive Portfolio</h2>
             <p>
-              <strong class="text-white">Explore real results</strong> from our
-              recent projects. Each solution delivered{" "}
-              <strong class="text-white">measurable business impact</strong> for
-              our clients.
+             Dive into a curated selection of our recent work that and modern technology.
             </p>
           </div>
           <div className="slide-wrapper">

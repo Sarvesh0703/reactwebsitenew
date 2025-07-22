@@ -32,7 +32,7 @@ const Technology = () => {
                 <div className="image-box">
                   <img
                     src={tech_image_1}
-                    style={{ width: "80px", height: "80px", padding: "17px" }}
+                    style={{ width: "75px", height: "75px", padding: "15px" }}
                     alt=""
                     className="html-box"
                   />
