@@ -84,7 +84,7 @@ html {
   width: 52px;
   height: 52px;
   font-size: 18px;
-  background-color: rgb(34 34 34 / 60%);
+  background-color: rgb(58 58 58 / 60%);
   color: white;
   border: none;
   border-radius: 50%;
@@ -94,11 +94,11 @@ html {
   transform: translateY(50px);
   pointer-events: none;
   transition: all 0.3s ease-in-out;
-  z-index: 1000;
+  z-index: 10;
 }
 
 .scrollToTop:hover {
-  background-color: rgb(52 52 52 / 60%);
+  background-color: rgb(85 85 85 / 60%);
 }
 
 .scrollToTop.show {
@@ -163,7 +163,7 @@ html {
     bottom: 65px;
     right: 15px;
     padding: 10px;
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
   }
 }

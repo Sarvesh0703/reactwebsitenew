@@ -128,13 +128,18 @@
     padding: 30px;
   }
 
+  .services-card:hover {
+    transform: translateY(0px);
+  }
+
   .services-list h2 {
     font-size: 18px;
+    margin-top: 25px;
   }
 
   .services-list p {
     margin-bottom: 15px;
-    font-size: 11px;
+    font-size: 14px;
   }
 
   .serv-icons {

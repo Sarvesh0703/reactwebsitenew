@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from "react";
 import "./ProjectsStyle.css";
-import project_img_1 from "../assets/port-1.jpg";
+import project_img_1 from "../assets/pro-3.jpg";
 import project_img_2 from "../assets/port-2.jpg";
-import project_img_3 from "../assets/port-3.jpg";
-import project_img_4 from "../assets/port-4.jpg";
-import project_img_5 from "../assets/port-5.jpg";
+import project_img_3 from "../assets/pro-2.png";
+import project_img_4 from "../assets/pro-4.jpg";
+import project_img_5 from "../assets/pro-1.png";
 import { Link } from "react-router-dom";
 import { GoArrowUpRight } from "react-icons/go";
-import star_icon from "../assets/star.svg";
 
 const slideData = [
   {
@@ -62,8 +61,8 @@ const Projects = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
-    }, 4000); // Change every 4 seconds
-    return () => clearInterval(interval); // Cleanup on unmount
+    }, 4000);
+    return () => clearInterval(interval);
   }, []);
 
   return (

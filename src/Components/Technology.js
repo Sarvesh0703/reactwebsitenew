@@ -7,7 +7,7 @@ import tech_image_4 from "../assets/photoshop.png";
 import tech_image_5 from "../assets/react-js.png";
 import tech_image_6 from "../assets/nodejs.svg";
 import tech_image_7 from "../assets/Postgresql.png";
-import star_icon from "../assets/star.svg";
+import tech_image_8 from "../assets/wix.png";
 
 const Technology = () => {
   return (
@@ -21,9 +21,9 @@ const Technology = () => {
             <div className="section-tag-line"></div>
           </div> */}
           <div class="top-heading text-center">
-            <h3>
+            <h2>
               Technologies I Work With
-            </h3>
+            </h2>
             <p>Modern tools for modern solutions</p>
           </div>
           <div className="row">
@@ -60,6 +60,10 @@ const Technology = () => {
                 </div>
                 <div className="image-box">
                   <img src={tech_image_7} alt="" />
+                  <span class="text-sm-tech">PostgreSQL</span>
+                </div>
+                <div className="image-box">
+                  <img src={tech_image_8} alt="" />
                   <span class="text-sm-tech">PostgreSQL</span>
                 </div>
               </div>

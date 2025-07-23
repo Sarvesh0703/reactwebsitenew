@@ -44,12 +44,36 @@
 
 .footer .social-icons a {
   display: inline-block;
-  margin: 0 10px 0px 0;
+  background: rgba(255, 255, 255, 0.08);
   transition: transform 0.3s ease-out;
+  display: inline-block;
+  padding: 3px 8px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 36px;
+  height: 36px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease-in-out;
 }
 
-.footer ul li img:hover {
-  transform: translateY(-4px);
+.footer ul li a:hover {
+  background-color: #fff;
+}
+
+.footer ul li a:hover .facebook-icon {
+  color: #3b5998;
+}
+
+.footer ul li a:hover .linkedin-icon {
+  color: #3b5998;
+}
+
+.footer ul li a:hover .instagram-icon {
+  color: #5851db;
+}
+
+.footer ul li a:hover .youtube-icon {
+  color: red;
 }
 
 @media screen and (max-width: 640px) {

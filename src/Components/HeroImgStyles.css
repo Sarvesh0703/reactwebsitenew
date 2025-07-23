@@ -153,9 +153,9 @@
     font-size: 18px;
   }
 
-  .type_txt {
+  /* .type_txt {
     display: none;
-  }
+  } */
 
   .hero .content .title_txt {
     font-size: 14px !important;
@@ -177,7 +177,7 @@
   }
 
   .main-content .content h1 {
-    font-size: 21px;
+    font-size: 16px;
   }
 
   .button_group {
