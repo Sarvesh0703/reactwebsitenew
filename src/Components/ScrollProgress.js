@@ -1,6 +1,5 @@
-// src/components/ScrollProgress.jsx
 import { useEffect, useState } from 'react';
-import './ScrollProgress.css'; // optional: for external CSS
+import './ScrollProgress.css';
 
 const ScrollProgress = () => {
   const [scroll, setScroll] = useState(0);
@@ -15,7 +14,7 @@ const ScrollProgress = () => {
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     window.addEventListener('resize', handleScroll);
-    handleScroll(); // initialize
+    handleScroll();
 
     return () => {
       window.removeEventListener('scroll', handleScroll);

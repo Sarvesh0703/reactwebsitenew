@@ -1,10 +1,6 @@
 import "./FooterStyles.css";
 import { Link } from "react-router-dom";
 import React from "react";
-// import facebook_icon from "../assets/Facebook_icon.png";
-// import instagram_icon from "../assets/Instagram_icon.png";
-// import linkedin_icon from "../assets/linkedin_icon.png";
-// import youtube_icon from "../assets/youtube_icon.webp";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";

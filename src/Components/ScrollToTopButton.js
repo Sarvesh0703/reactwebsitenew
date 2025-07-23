@@ -1,7 +1,6 @@
-// ScrollToTopButton.jsx
 import React, { useEffect, useState } from "react";
 import { FaArrowUp } from "react-icons/fa";
-import "./NavbarStyle.css"; // or a separate ScrollToTop.css if preferred
+import "./NavbarStyle.css";
 
 const ScrollToTopButton = () => {
   const [visible, setVisible] = useState(false);

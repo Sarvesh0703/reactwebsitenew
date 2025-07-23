@@ -3,7 +3,6 @@ import "./index.css";
 import { useState, useEffect } from "react";
 import Home from "./routes/Home";
 import { Route, Routes } from "react-router-dom";
-import { FaArrowUp } from "react-icons/fa";
 import ScrollToTopButton from "./Components/ScrollToTopButton";
 import ScrollProgress from './Components/ScrollProgress';
 
