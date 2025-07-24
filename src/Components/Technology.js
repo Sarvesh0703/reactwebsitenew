@@ -8,6 +8,7 @@ import tech_image_5 from "../assets/react-js.png";
 import tech_image_6 from "../assets/nodejs.svg";
 import tech_image_7 from "../assets/Postgresql.png";
 import tech_image_8 from "../assets/wix.png";
+import tech_image_9 from "../assets/canva.png";
 
 const Technology = () => {
   return (
@@ -32,7 +33,7 @@ const Technology = () => {
                 <div className="image-box">
                   <img
                     src={tech_image_1}
-                    style={{ width: "75px", height: "75px", padding: "15px" }}
+                    style={{ width: "70px", height: "70px", padding: "16px" }}
                     alt=""
                     className="html-box"
                   />
@@ -64,7 +65,11 @@ const Technology = () => {
                 </div>
                 <div className="image-box">
                   <img src={tech_image_8} alt="" />
-                  <span class="text-sm-tech">PostgreSQL</span>
+                  <span class="text-sm-tech">Wix</span>
+                </div>
+                <div className="image-box">
+                  <img src={tech_image_9} alt="" />
+                  <span class="text-sm-tech">Canva</span>
                 </div>
               </div>
             </div>

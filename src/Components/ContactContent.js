@@ -13,10 +13,8 @@ const ContactContent = () => {
             <span class="common-heading">Contact Us</span>
             <h2 class="">Let's Contact Now</h2>
             <p>
-              <strong class="text-white">Explore real results</strong> from our
-              recent projects. Each solution delivered{" "}
-              <strong class="text-white">measurable business impact</strong> for
-              our clients.
+              Explore real results from our recent projects. Each solution
+              delivered measurable business impact for our clients.
             </p>
           </div>
           <div class="row">

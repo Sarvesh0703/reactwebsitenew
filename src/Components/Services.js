@@ -12,7 +12,7 @@ const Services = () => {
       <div className="section-wrapper g-design">
         <div className="container">
           <div className="top-heading text-center">
-            <span class="common-heading">Services</span>
+            <span className="common-heading">Services</span>
             <h2>
               Our Services
             </h2>
@@ -57,7 +57,7 @@ const Services = () => {
                 </Link>
               </div>
               <div className="services-card">
-                <div class="gradient-line"></div>
+                <div className="gradient-line"></div>
                 <Link className="icon_box">
                   <FaAppStore size={35} className="serv-icons" />
                 </Link>

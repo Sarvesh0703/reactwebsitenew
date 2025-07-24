@@ -77,9 +77,11 @@ const Header = () => {
             </ul>
             <div className="hamburger" onClick={handleClick}>
               {click ? (
-                <IoCloseSharp size={25} style={{ color: "#000" }} />
+                <IoCloseSharp size={28} style={{ color: "#000" }} />
               ) : (
-                <RiMenu3Line size={25} style={{ color: "#fff" }} />
+                <RiMenu3Line size={28
+                  
+                } style={{ color: "#fff" }} />
               )}
             </div>
           </div>

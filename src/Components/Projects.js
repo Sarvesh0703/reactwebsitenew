@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./ProjectsStyle.css";
-import project_img_1 from "../assets/pro-3.jpg";
+import project_img_1 from "../assets/pro-3.png";
 import project_img_2 from "../assets/port-2.jpg";
 import project_img_3 from "../assets/pro-2.png";
-import project_img_4 from "../assets/pro-4.jpg";
+import project_img_4 from "../assets/pro-4.png";
 import project_img_5 from "../assets/pro-1.png";
 import { Link } from "react-router-dom";
 import { GoArrowUpRight } from "react-icons/go";
@@ -70,8 +70,8 @@ const Projects = () => {
       <div className="section-wrapper g-design">
         <div className="container">
           <div className="top-heading text-center">
-            <span class="common-heading">Featured Projects</span>
-            <h2 class="">Interactive Portfolio</h2>
+            <span className="common-heading">Featured Projects</span>
+            <h2 className="">Interactive Portfolio</h2>
             <p>
              Dive into a curated selection of our recent work that and modern technology.
             </p>

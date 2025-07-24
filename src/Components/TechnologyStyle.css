@@ -16,11 +16,11 @@
 }
 
 .technology-img img {
-  width: 75px;
-  height: 75px;
+  width: 70px;
+  height: 70px;
   aspect-ratio: 3/2;
   object-fit: contain;
-  padding: 10px;
+  padding: 12px;
   margin-bottom: 8px;
   cursor: pointer;
   border-radius: 12px;
@@ -46,7 +46,7 @@
 @media (max-width: 576px) {
   .technology {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
   }
 
   .technology-img {

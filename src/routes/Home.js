@@ -9,20 +9,21 @@ import Services from "../Components/Services";
 import Projects from "../Components/Projects";
 import ContactContent from "../Components/ContactContent";
 import Technology from "../Components/Technology";
+import FeaturedWork from "../Components/FeaturedWork";
 
 const Home = () => {
   return (
     <div>
       <Navbar />
       <HeroImg />
-      <Technology />
       {/* <ProjectSlide /> */}
       <Services />
       <Projects />
       {/* <Education />
       <Portfolio />
-      <Experience />
-      <ContactContent /> */}
+      <Experience /> */}
+      <FeaturedWork />
+      <Technology />
       <ContactContent />
       <Footer />
     </div>
