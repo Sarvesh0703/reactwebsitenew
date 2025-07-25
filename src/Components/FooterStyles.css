@@ -1,11 +1,7 @@
 .footer {
   width: 100%;
   padding: 2rem 0 2rem 0;
-  background-color: #1b1b1ba1;
-  /* background-image: url("../assets/bg-preview.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom; */
+  background-color: #000000;
 }
 
 .footer-bottom p {

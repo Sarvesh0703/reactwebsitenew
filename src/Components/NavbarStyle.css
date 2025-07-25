@@ -9,6 +9,7 @@ html {
   width: 100%;
   z-index: 999;
   padding: 20px 0;
+  border-bottom: 1px solid #ffffff14;
   background: transparent;
   display: flex;
   justify-content: space-between;
@@ -17,10 +18,13 @@ html {
 }
 
 .header-bg {
-  background-color: #1b1b1bc2;
-  padding: 18px 0;
-  -webkit-backdrop-filter: blur(6px);
+  background-color: #00000000;
+  padding: 16px 0;
+  /* -webkit-backdrop-filter: blur(6px); */
+  -webkit-backdrop-filter: saturate(180%) brightness(150%) blur(10px);
   backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: saturate(180%) brightness(150%) blur(10px);
+  border-color: transparent;
 }
 
 .logo h1 {
@@ -121,7 +125,7 @@ html {
     top: 0;
     right: 0;
     backdrop-filter: blur(12px);
-    background-color: #161616f2;
+    background-color: #0a0a0af2;
     width: 240px;
     height: 100vh;
     display: flex;
