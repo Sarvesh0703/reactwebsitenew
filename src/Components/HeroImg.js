@@ -62,8 +62,7 @@ const HeroImg = () => {
             }}
           >
             We are a new design studio based in USA. We have over 2+ years of{" "}
-            <br />
-            combined experience, and know a thing or two about designing <br />{" "}
+            combined experience, and know a thing or two about designing{" "}
             website and mobile apps.
           </p>
           <div className="button_group mt-5">

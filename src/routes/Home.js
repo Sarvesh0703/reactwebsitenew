@@ -22,8 +22,8 @@ const Home = () => {
       {/* <Education />
       <Portfolio />
       <Experience /> */}
-      <FeaturedWork />
       <Technology />
+      <FeaturedWork />
       <ContactContent />
       <Footer />
     </div>

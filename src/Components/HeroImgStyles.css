@@ -67,6 +67,11 @@
   justify-content: center;
 }
 
+.title_txt {
+  max-width: 570px;
+  margin: auto;
+}
+
 .type_txt {
   display: flex;
   justify-content: center;
@@ -167,8 +172,19 @@
 }
 
 @media screen and (max-width: 576px) {
+  .hero .content {
+    margin-top: 100px;
+    text-align: left;
+    padding: 0 15px;
+  }
+
+  .type_txt {
+    display: none;
+  }
+
   .hero .main-content {
-    min-height: 70vh;
+    min-height: 74vh;
+    padding-bottom: 50px;
   }
 
   .type_txt span {
@@ -177,7 +193,8 @@
   }
 
   .main-content .content h1 {
-    font-size: 16px;
+    font-size: 35px;
+    font-weight: 600;
   }
 
   .button_group {
@@ -192,12 +209,9 @@
   }
 
   .hero .content .title_txt {
-    font-size: 10px !important;
-    line-height: 15px !important;
-  }
-
-  .hero .content p {
-    font-size: 14px;
-    margin-bottom: 10px;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    text-align: left;
+    max-width: 100%;
   }
 }
