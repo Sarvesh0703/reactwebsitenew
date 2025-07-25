@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactwebsitenew/static/css/main.a1bdad17.css",
-    "main.js": "/reactwebsitenew/static/js/main.c1eff853.js",
+    "main.css": "/reactwebsitenew/static/css/main.f03abad4.css",
+    "main.js": "/reactwebsitenew/static/js/main.eee62238.js",
     "static/media/html.png": "/reactwebsitenew/static/media/html.35d52cccade672738a81.png",
     "static/media/canva.png": "/reactwebsitenew/static/media/canva.30f52d68d4e9d782ad31.png",
     "static/media/pro-1.png": "/reactwebsitenew/static/media/pro-1.304f97a0d3d319157def.png",
@@ -20,11 +20,11 @@
     "static/media/nodejs.svg": "/reactwebsitenew/static/media/nodejs.6186f603644b684c5b000d966166464a.svg",
     "index.html": "/reactwebsitenew/index.html",
     "static/media/star.svg": "/reactwebsitenew/static/media/star.5cf927422480d229a40c40654eeed1a9.svg",
-    "main.a1bdad17.css.map": "/reactwebsitenew/static/css/main.a1bdad17.css.map",
-    "main.c1eff853.js.map": "/reactwebsitenew/static/js/main.c1eff853.js.map"
+    "main.f03abad4.css.map": "/reactwebsitenew/static/css/main.f03abad4.css.map",
+    "main.eee62238.js.map": "/reactwebsitenew/static/js/main.eee62238.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1bdad17.css",
-    "static/js/main.c1eff853.js"
+    "static/css/main.f03abad4.css",
+    "static/js/main.eee62238.js"
   ]
 }
