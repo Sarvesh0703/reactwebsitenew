@@ -23,6 +23,7 @@ const HeroImg = () => {
 
   return (
     <div className="hero" id="1">
+      <div className="gradient-box"></div>
       {/* <div className="row">
         <div className="col-lg-12">
           <div className="content">

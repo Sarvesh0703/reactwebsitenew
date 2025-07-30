@@ -276,6 +276,28 @@ ul {
   box-shadow: inset 0 -4px 12px #ffffff1a;
 }
 
+.gradient-box:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -75px;
+    height: 75px;
+    filter: blur(30px);
+    -webkit-filter: blur(30px);
+    background-image: conic-gradient(from 180deg at 50% 100%, transparent 0, transparent 27%, #ff3998 27%, #d764ff 36.04%, #00b5ff 58.23%, #0fd 63%, #54fa43 73%, transparent 73%, transparent 100%);
+    animation: hueRotate 2.5s linear infinite;
+}
+
+@keyframes hueRotate{
+  0% {
+    filter: hue-rotate(0) blur(30px);
+}
+100% {
+    filter: hue-rotate(360deg) blur(30px);
+}
+}
+
 @media (max-width: 576px) {
   .container {
     margin: 0 auto;
