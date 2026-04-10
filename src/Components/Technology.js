@@ -15,13 +15,8 @@ const Technology = () => {
     <section className="technology" id="3">
       <div className="section-wrapper g-design">
         <div className="container">
-          {/* <div className="section-tag">
-            <div class="hero-badge"><img src={star_icon} loading="lazy" style={{width: '15px'}} alt=""/>
-            <div>Technologies I Work With</div>
-            </div>
-            <div className="section-tag-line"></div>
-          </div> */}
-          <div class="top-heading text-center">
+          <div className="top-heading text-center">
+            <span class="common-heading">Technologies</span>
             <h2>
               Technologies I Work With
             </h2>

@@ -68,7 +68,7 @@ const ContactContent = () => {
                     required
                   ></textarea>
                 </div>
-                <Link to="/" className="customButton view-btn">
+                <Link to="/" className="customButton view-btn button-1">
                   <span>
                     Send Message
                     <GoArrowUpRight className="arrow" />

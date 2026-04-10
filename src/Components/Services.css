@@ -68,8 +68,6 @@
   width: 62px;
   height: 62px;
   background: #a3d1ff1a;
-  /* padding: 18px;
-  border-radius: 12px; */
   backdrop-filter: blur(12px);
   background-color: #ffffff03;
   border: 1px solid #ffffff0a;
@@ -88,11 +86,13 @@
 
 .serv-btn {
   color: var(--first-color);
+  font-weight: 400;
   transition: all 0.3s ease;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .serv-btn:hover {
+  color: #fff;
   text-decoration: underline;
 }
 

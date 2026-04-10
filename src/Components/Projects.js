@@ -92,7 +92,7 @@ const Projects = () => {
                       <div className="project-tag">Web development</div>
                     </div>
                     <p>{slide.description}</p>
-                    <Link to={slide.link} className="customButton view-btn">
+                    <Link to={slide.link} className="customButton view-btn button-1">
                       <span>View Project</span>{" "}
                       <GoArrowUpRight className="arrow" />
                     </Link>

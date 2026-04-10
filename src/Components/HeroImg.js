@@ -75,7 +75,7 @@ const HeroImg = () => {
               <span>Download CV</span>
               <GoArrowUpRight className="arrow" />
             </Link>
-            <Link to="/" class="customButton button-2">
+            <Link to="/" className="customButton button-2 button-1">
               <span>Contact Us</span>
               <GoArrowUpRight className="arrow" />
             </Link>
