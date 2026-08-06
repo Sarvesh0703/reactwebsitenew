@@ -8,7 +8,7 @@ html {
   left: 0;
   width: 100%;
   z-index: 999;
-  padding: 18px 0;
+  padding: 12px 0;
   border-bottom: 1px solid #ffffff14;
   background: transparent;
   display: flex;
@@ -18,8 +18,8 @@ html {
 }
 
 .header-bg {
-  background-color:#a9a9a90d;
-  padding: 16px 0;
+  background-color:#00000000;
+  padding: 10px 0;
   -webkit-backdrop-filter: saturate(180%) brightness(150%) blur(10px);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: saturate(180%) brightness(150%) blur(10px);

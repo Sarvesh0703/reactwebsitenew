@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { RiMenu3Line } from "react-icons/ri";
 import { IoCloseSharp } from "react-icons/io5";
 import "./NavbarStyle.css";
+import logo from "../assets/portfolio_logo.svg";
 
 const Header = () => {
   const [activeSection, setActiveSection] = useState("");
@@ -51,7 +52,7 @@ const Header = () => {
         <div className="row align-items-center">
           <div className="col-sm-3 col-lg-3">
             <a href="" className="logo">
-              <h1>WEB.</h1>
+              <img src={logo} alt="Logo" width="54" />
             </a>
           </div>
           <div className="col-sm-9 col-lg-9">
