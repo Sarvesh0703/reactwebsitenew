@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactwebsitenew/static/css/main.8c848931.css",
-    "main.js": "/reactwebsitenew/static/js/main.e51f596e.js",
+    "main.css": "/reactwebsitenew/static/css/main.29bbf3af.css",
+    "main.js": "/reactwebsitenew/static/js/main.475918d6.js",
     "static/media/html.png": "/reactwebsitenew/static/media/html.35d52cccade672738a81.png",
     "static/media/canva.png": "/reactwebsitenew/static/media/canva.30f52d68d4e9d782ad31.png",
     "static/media/pro-1.png": "/reactwebsitenew/static/media/pro-1.304f97a0d3d319157def.png",
@@ -10,6 +10,7 @@
     "static/media/pro-4.png": "/reactwebsitenew/static/media/pro-4.ca12794281c563fdd6fd.png",
     "static/media/Postgresql.png": "/reactwebsitenew/static/media/Postgresql.99d7da9230ec5e4f4c18.png",
     "static/media/port-2.jpg": "/reactwebsitenew/static/media/port-2.a4682f71fe7bede0df15.jpg",
+    "static/media/portfolio_logo.svg": "/reactwebsitenew/static/media/portfolio_logo.4b9851123fcd68da0c845679f5bbd445.svg",
     "static/media/photoshop.png": "/reactwebsitenew/static/media/photoshop.577c9b24bd547559498a.png",
     "static/media/star-bg.png": "/reactwebsitenew/static/media/star-bg.0b8213ba1652b78fb9c8.png",
     "static/media/pro-2.png": "/reactwebsitenew/static/media/pro-2.8c1693d869fd8b4869f0.png",
@@ -20,11 +21,11 @@
     "static/media/nodejs.svg": "/reactwebsitenew/static/media/nodejs.6186f603644b684c5b000d966166464a.svg",
     "index.html": "/reactwebsitenew/index.html",
     "static/media/star.svg": "/reactwebsitenew/static/media/star.5cf927422480d229a40c40654eeed1a9.svg",
-    "main.8c848931.css.map": "/reactwebsitenew/static/css/main.8c848931.css.map",
-    "main.e51f596e.js.map": "/reactwebsitenew/static/js/main.e51f596e.js.map"
+    "main.29bbf3af.css.map": "/reactwebsitenew/static/css/main.29bbf3af.css.map",
+    "main.475918d6.js.map": "/reactwebsitenew/static/js/main.475918d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c848931.css",
-    "static/js/main.e51f596e.js"
+    "static/css/main.29bbf3af.css",
+    "static/js/main.475918d6.js"
   ]
 }
