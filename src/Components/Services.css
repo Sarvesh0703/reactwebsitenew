@@ -60,7 +60,7 @@
 }
 
 .services-card:hover {
-  transform: translateY(-12px);
+  transform: translateY(-8px);
   border-color: var(--first-color);
 }
 

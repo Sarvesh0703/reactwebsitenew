@@ -24,7 +24,7 @@ const ContactContent = () => {
               </h2>
               <div className="para-title">
                 Fill the form and start a project or, if you prefer to email us
-                instead... <a href="#">pandeysarvesh102@gmail.com</a>
+                instead... <a href="mailto:pandeysarvesh102@gmail.com">pandeysarvesh102@gmail.com</a>
               </div>
             </div>
 

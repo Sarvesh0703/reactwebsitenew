@@ -14,7 +14,12 @@
   background-color: #1b1b1bcc;
   border: 1px solid #ffffff1a;
   border-radius: 12px;
-  transition: all 0.3s;
+  transition: all 0.5s;
+}
+
+.featured .page-wrapper:hover {
+  transform: translateY(-5px);
+  border-color: var(--first-color);
 }
 
 .featured .page-wrapper .number-center {

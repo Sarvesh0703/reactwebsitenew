@@ -52,7 +52,7 @@ const Header = () => {
         <div className="row align-items-center">
           <div className="col-sm-3 col-lg-3">
             <a href="" className="logo">
-              <img src={logo} alt="Logo" width="54" />
+              <img src={logo} alt="Logo" width="60" />
             </a>
           </div>
           <div className="col-sm-9 col-lg-9">

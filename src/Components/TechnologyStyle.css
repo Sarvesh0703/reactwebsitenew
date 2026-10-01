@@ -28,13 +28,18 @@
   transition: transform 0.5s ease;
 }
 
-.technology-img img:hover {
+.technology-img .image-box:hover img {
   transform: translateY(-10px);
 }
 
 .image-box {
   display: grid;
   text-align: center;
+  padding: 18px;
+  background-color: #1b1b1bcc;
+  border: 1px solid #ffffff1a;
+  border-radius: 12px;
+  transition: all 0.5s;
 }
 
 .text-sm-tech {
