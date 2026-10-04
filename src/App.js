@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Home from "./routes/Home";
 import { Route, Routes } from "react-router-dom";
 import ScrollToTopButton from "./Components/ScrollToTopButton";
-import ScrollProgress from './Components/ScrollProgress';
+import ScrollProgress from "./Components/ScrollProgress";
 
 function App() {
   const [visible, setVisible] = useState(false);
@@ -26,7 +26,7 @@ function App() {
   };
   return (
     <>
-     <ScrollProgress />
+      <ScrollProgress />
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>

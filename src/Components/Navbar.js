@@ -58,31 +58,65 @@ const Header = () => {
           <div className="col-sm-9 col-lg-9">
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li>
-                <a href="#1" className={activeSection === "1" ? "active" : ""} onClick={() => setClick(false)}>Home</a>
+                <a
+                  href="#1"
+                  className={activeSection === "1" ? "active" : ""}
+                  onClick={() => setClick(false)}
+                >
+                  Home
+                </a>
               </li>
               <li>
-                <a href="#3" className={activeSection === "3" ? "active" : ""} onClick={() => setClick(false)}>Services</a>
+                <a
+                  href="#3"
+                  className={activeSection === "3" ? "active" : ""}
+                  onClick={() => setClick(false)}
+                >
+                  Services
+                </a>
               </li>
               <li>
-                <a href="#2" className={activeSection === "2" ? "active" : ""} onClick={() => setClick(false)}>About Me</a>
+                <a
+                  href="#2"
+                  className={activeSection === "2" ? "active" : ""}
+                  onClick={() => setClick(false)}
+                >
+                  About Me
+                </a>
               </li>
               <li>
-                <a href="#4" className={activeSection === "4" ? "active" : ""} onClick={() => setClick(false)}>How we work</a>
+                <a
+                  href="#4"
+                  className={activeSection === "4" ? "active" : ""}
+                  onClick={() => setClick(false)}
+                >
+                  How we work
+                </a>
               </li>
               <li>
-                <a href="#5" className={activeSection === "5" ? "active" : ""} onClick={() => setClick(false)}>Projects</a>
+                <a
+                  href="#5"
+                  className={activeSection === "5" ? "active" : ""}
+                  onClick={() => setClick(false)}
+                >
+                  Projects
+                </a>
               </li>
               <li>
-                <a href="#6" className={activeSection === "6" ? "active" : ""} onClick={() => setClick(false)}>Contact Us</a>
+                <a
+                  href="#6"
+                  className={activeSection === "6" ? "active" : ""}
+                  onClick={() => setClick(false)}
+                >
+                  Contact Us
+                </a>
               </li>
             </ul>
             <div className="hamburger" onClick={handleClick}>
               {click ? (
                 <IoCloseSharp size={28} style={{ color: "#000" }} />
               ) : (
-                <RiMenu3Line size={28
-                  
-                } style={{ color: "#fff" }} />
+                <RiMenu3Line size={28} style={{ color: "#fff" }} />
               )}
             </div>
           </div>
