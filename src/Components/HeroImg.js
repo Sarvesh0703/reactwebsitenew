@@ -38,12 +38,12 @@ const HeroImg = () => {
               <span>Welcome</span>
             </div>
           </div>
-          <h1>Hi, 👋 I’m Sarvesh, a Web Developer.</h1>
+          <h1>Hi, 👋 I’m Sarvesh, a Frontend Developer.</h1>
           <div className="type_txt">
             <ReactTyped
               strings={[
                 "UI/UX Designer",
-                "Graphic Designer",
+                "Web Designer",
                 "React Developer",
               ]}
               typeSpeed={40}
@@ -62,9 +62,7 @@ const HeroImg = () => {
               color: "#fff",
             }}
           >
-            We are a new design studio based in USA. We have over 2+ years of{" "}
-            combined experience, and know a thing or two about designing{" "}
-            website and mobile apps.
+            I have 2+ years of experience building modern, responsive, and user-friendly web experiences using React.js and modern frontend technologies.
           </p>
           <div className="button_group mt-5">
             <Link
