@@ -41,11 +41,7 @@ const HeroImg = () => {
           <h1>Hi, 👋 I’m Sarvesh, a Frontend Developer.</h1>
           <div className="type_txt">
             <ReactTyped
-              strings={[
-                "UI/UX Designer",
-                "Web Designer",
-                "React Developer",
-              ]}
+              strings={["UI/UX Designer", "Web Designer", "React Developer"]}
               typeSpeed={40}
               backSpeed={50}
               loop={true}
@@ -62,7 +58,9 @@ const HeroImg = () => {
               color: "#fff",
             }}
           >
-            I have 2+ years of experience building modern, responsive, and user-friendly web experiences using React.js and modern frontend technologies.
+            I have 2+ years of experience building modern, responsive, and
+            user-friendly web experiences using React.js and modern frontend
+            technologies.
           </p>
           <div className="button_group mt-5">
             <Link
